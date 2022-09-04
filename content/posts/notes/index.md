@@ -1,5 +1,5 @@
 ---
-title: "test"
+title: "Notes"
 date: 2022-08-20T23:34:12+08:00
 draft: true
 tags: ["tag-test", "post", "2"]
@@ -22,6 +22,7 @@ cover:
 - [hugo博客搭建 | papermod主题](https://www.sulvblog.cn/posts/blog/build_hugo/#4%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6)
 - [如何添加google analytics到hugo](https://andrewu.page/zh-tw/archives/)
 - [如何整合disqus到您的hugo網站?](https://andrewu.page/zh-tw/2022/02/%e5%a6%82%e4%bD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/)
+- [Hugo 貼身打造個人部落格](https://ithelp.ithome.com.tw/users/20106430/ironman/3613)
 
 ![image](img.png)
 

@@ -49,13 +49,8 @@ params:
   homeInfoParams:
       Title: "Hi there \U0001F44B"
       Content: >
-          Welcome to demo of hugo's theme PaperMod.
+        Dad, husband, Soulslike games enjoyer.
 
-          - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-          - Do give a 🌟 on Github !
-
-          - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
   socialIcons:
       - name: github
         url: "https://github.com/yentingli?tab=repositories"
@@ -100,7 +95,8 @@ taxonomies:
 
 menu:
   main:
-    - name: Search
+    - identifier: search
+      name: 🔍Search
       url: /search/
       weight: 1
     - identifier: Archive
