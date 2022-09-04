@@ -1,13 +1,16 @@
 baseURL: http://example.org/
 title: Yenting Li
-paginate: 5
+paginate: 10
 theme: PaperMod
 hasCJKLanguage: true
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
+enableEmoji: true
 buildFuture: false
 buildExpired: false
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -28,7 +31,6 @@ params:
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   # ShowReadingTime: true
   # ShowShareButtons: true
   ShowPostNavLinks: true
@@ -38,13 +40,12 @@ params:
   ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   ShowToc: true
-  tocopen: false
+  TocOpen: true
   # images: ["first_post.jpg"]
-
   homeInfoParams:
       Title: "Hi there \U0001F44B"
       Content: >
@@ -76,23 +77,10 @@ params:
   #   icon: /apple-touch-icon.png
   #   iconHeight: 35
 
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList:  false # hide on list pages and home
     hiddenInSingle: false # hide on single page
-
-  # editPost:
-  #   URL: "https://github.com/<path_to_repo>/content"
-  #   Text: "Suggest Changes=>" # edit text
-  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -140,7 +128,6 @@ menu:
     #   url: https://example.org
     #   weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
