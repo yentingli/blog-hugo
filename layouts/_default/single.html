@@ -17,18 +17,18 @@
                 {{- partial "post_meta.html" . -}}
 
                 <!--Tags in header-->
-                &nbsp;|&nbsp;Tags: &nbsp;
+                <!-- &nbsp;|&nbsp;Tags: &nbsp;
                 {{- if .Params.tags }}
                 <ul class="post-tags-meta">
                     {{- range $index, $value := ($.GetTerms "tags") }}
                     {{- if eq $index 0}}
                     <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
                     {{- else }}
-                    <a href="{{ .Permalink }}">、{{ .LinkTitle }}</a>
+                    <a href="{{ .Permalink }}">, {{ .LinkTitle }}</a>
                     {{- end }}
                     {{- end }}
                 </ul>
-                {{- end }}
+                {{- end }} -->
             </span>
 
                 {{- partial "translation_list.html" . -}}
@@ -54,13 +54,13 @@
         {{- end }}
 
         <footer class="post-footer">
-            <!--{{- if .Params.tags }}
+            {{- if .Params.tags }}
             <ul class="post-tags">
                 {{- range ($.GetTerms "tags") }}
                 <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
                 {{- end }}
             </ul>
-            {{- end }}-->
+            {{- end }}
             {{- if (.Param "ShowPostNavLinks") }}
             {{- partial "post_nav_links.html" . }}
             {{- end }}
