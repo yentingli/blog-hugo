@@ -25,7 +25,13 @@ cover:
 - [Hugo 貼身打造個人部落格](https://ithelp.ithome.com.tw/users/20106430/ironman/3613)
 
 ![image](img.png)
+[test] [1]
 
+[1]: hihihiih "hi"
+
+:::danger
+喔不 :fire:
+:::
 
 ## Other Elements — abbr, sub, sup, kbd, mark
 
