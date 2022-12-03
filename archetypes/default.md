@@ -5,6 +5,8 @@ lastmod: {{ .Date }}
 draft: true
 tags: []
 description: ""
+ShowToc: true
+TocOpen: true
 cover:
   image: ""
   alt: "<alt text>"
