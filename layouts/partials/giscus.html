@@ -1,0 +1,18 @@
+<!-- giscus https://giscus.vercel.app/ -->
+{{ if (ne "" $.Site.Params.giscus.dataRepo) }}
+<script src="https://giscus.app/client.js"
+        data-repo="{{ $.Site.Params.giscus.dataRepo }}"
+        data-repo-id="{{ $.Site.Params.giscus.dataRepoID }}"
+        data-category="{{ $.Site.Params.giscus.dataCategory }}"
+        data-category-id="{{ $.Site.Params.giscus.dataCategoryID }}"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+</script>
+{{ end }}

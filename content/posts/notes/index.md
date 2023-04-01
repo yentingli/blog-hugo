@@ -10,6 +10,7 @@ aliases: ["migrate-from-jekyl"]
 weight: 2
 ShowToc: true
 TocOpen: true
+comments: true
 cover:
   # image: "/first_post.jpg"  # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png

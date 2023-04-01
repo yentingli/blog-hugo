@@ -87,6 +87,11 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+  giscus:
+    dataRepo: "yentingli/blog-hugo"
+    dataRepoID: "R_kgDOH70gYQ"
+    dataCategory: "Announcements"
+    dataCategoryID: "DIC_kwDOH70gYc4CVeCM"
 
 taxonomies:
   category: categories
