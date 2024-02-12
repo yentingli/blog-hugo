@@ -92,6 +92,9 @@ params:
     dataRepoID: "R_kgDOH70gYQ"
     dataCategory: "Announcements"
     dataCategoryID: "DIC_kwDOH70gYc4CVeCM"
+  cusdis:
+    dataAppId: "d569735b-ab77-448c-ad1f-31439df844c7"
+
 
 taxonomies:
   category: categories
