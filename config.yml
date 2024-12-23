@@ -1,4 +1,4 @@
-baseURL: https://yentingli.netlify.app
+baseURL: https://blog.liyenting.com
 title: Yenting Li
 paginate: 10
 theme: PaperMod
@@ -101,7 +101,7 @@ taxonomies:
 menu:
   main:
     - identifier: search
-      name: 🔍Search
+      name: Search
       url: /search/
       weight: 1
     - identifier: Archive
